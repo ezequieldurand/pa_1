@@ -1,0 +1,36 @@
+
+``` r
+dur_hablo_stressed <- 0.4285
+dur_hablo_unstressed <- 0.425
+dur_o_stressed <- 0.96
+dur_o_unstressed <- 0.095
+int_o_stressed <- 75.45650746885987
+int_o_unstressed <- 77.70875119537644
+f0_o_stressed <- 130.86138657317088 
+f0_o_unstressed <- 161.7074516572704
+
+
+dur_hablo_stressed - dur_hablo_unstressed
+```
+
+    ## [1] 0.0035
+
+``` r
+dur_o_stressed - dur_o_unstressed
+```
+
+    ## [1] 0.865
+
+``` r
+int_o_unstressed - int_o_stressed
+```
+
+    ## [1] 2.252244
+
+``` r
+f0_o_unstressed - f0_o_stressed
+```
+
+    ## [1] 30.84607
+
+I can see that in my recording, the duration of both habló and the ó is longer than for the unstressed conditions. This seems to be the opposite for f0 and intensity, for which the unstressed conditions are greater than the stressed conditions.
